@@ -1,0 +1,14 @@
+conda create -n tns_1 python==3.6.9
+conda activate tns_1 
+pip install tensorflow==1.14.0
+pip install jupyter
+jupyter notebook
+
+import tensorflow as tf
+tf.__version__
+
+conda create -n tns_2 python==3.6.9
+conda activate tns_2 
+pip install tensorflow
+pip install jupyter
+jupyter notebook
